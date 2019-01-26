@@ -20,20 +20,20 @@ $(function()
         this.toPhoneItem = function(imagesDir)
         {
             return `<div class="phone-item col-3">
-                    <div class="image-container">
-                        <img src="${imagesDir + this.imageSourceName}" alt="${this.name}" />
-                    </div>
-                    <div class="phone-info">
-                        <h3>${this.name}</h3>
-                        <div class="info">
-                            <div>Price</div>
-                            <div>${this.price}$</div>
+                        <div class="image-container">
+                            <img src="${imagesDir + this.imageSourceName}" alt="${this.name}" />
                         </div>
-                    </div>
-                    <div class="buy-button">
-                        BUY NOW
-                    </div>
-                </div>`;
+                        <div class="phone-info">
+                            <h3>${this.name}</h3>
+                            <div class="info">
+                                <div>Price</div>
+                                <div>${this.price}$</div>
+                            </div>
+                        </div>
+                        <div class="buy-button">
+                            BUY NOW
+                        </div>
+                    </div>`;
         };
     }
     
