@@ -52,6 +52,26 @@ input
     font-size: 0.75rem;
 }
 
+.email-input
+{
+    border: 1px solid #bebebe;
+}
+
+.button-base-style
+{
+    border: 1px solid #bebebe;
+    background-color: #f0f0f0;
+    transition: background-color 0.1s;
+    font-weight: bold;
+    color: #454545;
+}
+
+.button-base-style:hover
+{
+    background-color: #93d4ff;
+    cursor: pointer;
+}
+
 .navigation
 {
     position: fixed;
@@ -242,6 +262,16 @@ input
 .offer
 {
     padding-bottom: 32px;
+}
+
+.offer-header
+{
+    padding-left: 16px;
+}
+
+.main-offer-header
+{
+    padding-left: 24px;
 }
 
 .best-deal
