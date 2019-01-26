@@ -236,12 +236,12 @@ input
 
 .best-deal-header
 {
-    display: flex;
-    justify-content: right;
-    align-items: center;
+    text-align: center;
     width: 100%;
-    background-color: #a8ff78;
-    padding: 0.4rem;
+    background-color: #3e427a;
+    padding: 6px;
+    color: white;
+    font-weight: bold;
 }
 
 .best-deal-header h3
@@ -249,23 +249,73 @@ input
     margin-bottom: 0px;
 }
 
+#best-deal-countdown
+{
+    text-align: center;
+    padding: 6px;
+    background-color: #f0f0f0;
+}
+
+.best-deal-name
+{
+    text-align: center;
+    padding: 8px;
+}
+
+.best-deal-name h3
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #454545;
+}
+
+.best-deal-price
+{
+    padding: 8px;
+    text-align: center;
+}
+
+.best-deal-price .old
+{
+    margin-bottom: 4px;
+    text-decoration: line-through;
+}
+
+.best-deal-price .new
+{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.best-deal .image-container
+{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.main
+{
+    padding: 8px;
+}
+
+.side-column
+{
+    padding: 8px;
+}
+
 .phone-item
 {
     border: 1px solid #c5c5c5;
-    border-right: 0px none;
+    padding: 0px;
 }
 
-.phone-item:last-child
-{
-    border-right: 1px solid #c5c5c5;
-}
-
-.phone-item .image-container
+.image-container
 {
     padding: 0.5rem;
 }
 
-.phone-item .image-container img
+.image-container img
 {
     width: 100%;
 }
