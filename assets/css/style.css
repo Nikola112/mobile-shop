@@ -37,6 +37,11 @@ input
     direction: row;
 }
 
+.small-text
+{
+    font-size: 0.75rem;
+}
+
 .navigation
 {
     position: fixed;
@@ -214,4 +219,90 @@ input
 .misc h2
 {
     font-size: 1rem;
+    font-weight: bold;
+}
+
+.misc-icon
+{
+    color: #9e9e9e;
+    font-size: 2rem;
+    line-height: 55px;
+}
+
+.best-deal
+{
+    border: 1px solid #c5c5c5;
+}
+
+.best-deal-header
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    background-color: #a8ff78;
+    padding: 0.4rem;
+}
+
+.best-deal-header h3
+{
+    margin-bottom: 0px;
+}
+
+.phone-item
+{
+    border: 1px solid #c5c5c5;
+    border-right: 0px none;
+}
+
+.phone-item:last-child
+{
+    border-right: 1px solid #c5c5c5;
+}
+
+.phone-item .image-container
+{
+    padding: 0.5rem;
+}
+
+.phone-item .image-container img
+{
+    width: 100%;
+}
+
+.phone-item .phone-info
+{
+    margin-top: 4px;
+    padding: 8px 16px;
+    text-align: center;
+}
+
+.phone-item .phone-info h3
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #454545;
+}
+
+.phone-item .phone-info .info
+{
+    border-top: 1px solid #c5c5c5;
+    margin-top: 4px;
+    padding: 16px 8px 16px 8px;
+}
+
+.phone-item .buy-button
+{
+    background: #59df59;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.phone-item .buy-button:hover
+{
+    background: #56f356;
+    cursor: pointer;
 }
