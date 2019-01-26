@@ -79,7 +79,8 @@ $(function()
         new Phone("Samsung Galaxy S9+", 949.99, "samsung-galaxy-s9-plus.jpg"),
         new Phone("Sony Xperia L1", 229.99, "sony-xperia-l1.jpg"),
         new Phone("Sony Xperia XA2", 329.99, "sony-xperia-xa-2.jpg"),
-        new Phone("Sony Xperia XZ2", 289.99, "sony-xperia-xz-2.jpg")
+        new Phone("Sony Xperia XZ2", 289.99, "sony-xperia-xz-2.jpg"),
+        new Phone("Nokia 7.1", 459.99, "nokia-7-1.jpg")
     ];
     
     function renderPhoneItems(parent, ...items)
@@ -96,5 +97,5 @@ $(function()
     renderPhoneItems(featured, phoneList.atIndex(4), phoneList.atIndex(6), phoneList.atIndex(7), phoneList.atIndex(2));
 
     let newest = document.getElementById("newest-items");
-    renderPhoneItems(newest, phoneList.atIndex(5), phoneList.atIndex(0), phoneList.atIndex(8), phoneList.atIndex(2));
+    renderPhoneItems(newest, phoneList.atIndex(5), phoneList.atIndex(0), phoneList.atIndex(8), phoneList.atIndex(9));
 });
