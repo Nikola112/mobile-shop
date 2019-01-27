@@ -422,7 +422,7 @@ input
     padding: 16px 8px 16px 8px;
 }
 
-.phone-item .buy-button
+.buy-button
 {
     background: #59df59;
     padding: 12px;
@@ -431,11 +431,12 @@ input
     color: white;
     font-weight: bold;
     margin-top: auto;
+    transition: background-color 0.15s;
 }
 
-.phone-item .buy-button:hover
+.buy-button:hover
 {
-    background: #56f356;
+    background-color: #56f356;
     cursor: pointer;
 }
 
@@ -606,4 +607,70 @@ input
     text-decoration: none;
     color: #59df59;
     cursor: pointer;
+}
+
+#phone-gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.phone-gallery-item
+{
+    -ms-flex:0 0 25%;
+    flex:0 0 25%;
+    max-width: 25%;
+    padding: 16px;
+}
+
+.phone-gallery-item:hover
+{
+    cursor: pointer;
+}
+
+.phone-gallery-item:hover img
+{
+    transform: scale(1.05);
+}
+
+.phone-gallery-item img
+{
+    width: 100%;
+    transition: transform 0.15s;
+}
+
+#gallery-header
+{
+    text-align: center;
+    line-height: 480px;
+    color: white;
+    font-weight: bold;
+}
+
+#choose-phone
+{
+    text-align: center;
+}
+
+#choose-phone h2
+{
+    color: #fff;
+    padding: 24px;
+    margin-bottom: 12px;
+}
+
+#choose-phone img
+{
+    margin: 0px auto;
+    border: 4px solid #dbdbdb;
+    background: white;
+    padding: 8px;
+}
+
+.text-centered
+{
+    line-height: 480px;
+    padding: 0px !important;
+    margin-bottom: 0px !important;
 }
