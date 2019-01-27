@@ -42,14 +42,16 @@ $(function()
 
     phoneGallery.innerHTML = phoneGalleryHtml;
 
-    let choosenOne = document.getElementById("choose-phone");
+    let $choosenOne = $("#choose-phone");
 
     $(document).on("click", ".phone-gallery-item", function()
     {
         console.log($(this).find("img").attr("src"));
 
         let $image = $(this).find("img");
-        choosenOne.innerHTML = `<h2>${$image.attr("alt")}</h2>
-                                <img src="${$image.attr("src")}" alt="${$image.attr("alt")}" />`;
+        $choosenOne.html(`  <h2>${$image.attr("alt")}</h2>
+                            <img src="${$image.attr("src")}" alt="${$image.attr("alt")}" />`);
+        
+        $('html, body').animate({scrollTop : 0}, 200);
     });
 });

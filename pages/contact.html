@@ -52,69 +52,64 @@
 		</header>
 
 		<div class="banner-container">
-			<div class="container">
-				<div class="row">
-					<div class="col-6">
-						<h1 id="gallery-header">Gallery</h1>
-					</div>
-
-					<div id="choose-phone" class="col-6">
-						<h2 class="text-centered">Choose a phone</h2>
-					</div>
-				</div>
-			</div>
+			<h1 class="generic-header">Contact</h1>
 		</div>
 
-		<div id="gallery-main" class="my-5">
-			<div class="container">
-				<div id="phone-gallery">
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
-					</div>
-					<div class="phone-gallery-item">
-						<img src="../assets/img/iphone-xr.jpg" alt="IPhone XR" />
+		<div class="container">
+			<div class="contact-me">
+				<div class="contact-form">
+					<h2>Contact me</h2>
+
+					<p class="mb-2">We are here to answer any questions you may have about our service experiences. Reach out to us and we'll respond as soon as we can.</p>
+					
+					<p class="mb-4">Even if there is phone you want to have and can't find it in our offers, let us know and we promise we'll do our best to find it for you.</p>
+				
+					<form action="contact.php" method="POST">
+						<div class="row">
+							<div class="col-6">
+								<label class="first-label">
+									<span class="d-block">NAME:&nbsp;<span class="color-red">*</span></span>
+									<input type="text" name="tbName" id="tbName" class="text-box" />
+								</label>
+							</div>
+
+							<div class="col-6">
+								<label>
+									<span class="d-block">EMAIL:&nbsp;<span class="color-red">*</span></span>
+									<input type="text" name="tbMail" id="tbMail" class="text-box" />
+								</label>
+							</div>
+						</div>
+
+						<span class="d-block mt-2">MESSAGE:&nbsp;<span class="color-red">*</span></span>
+						<textarea name="text" id="text-area" cols="50" rows="12" class="textarea-field"></textarea>
+
+						<input type="submit" value="SEND" class="ml-auto mt-1" />
+					</form>
+				</div>
+				<div class="contact-info">
+					<h3 class="d-block color-red contact-info-info">EMAIL</h3>
+					<a href="mailto:nikola.jovic.100.17@ict.edu.rs" class="d-block color-blue contact-link mb-4">nikola.jovic.100.17@ict.edu.rs</a>
+
+					<h3 class="d-block color-red contact-info-info">TELEPHONE</h3>
+					<span class="d-block color-blue contact-link mb-4">011/8700000</span>
+
+					<h3 class="d-block color-red contact-info-info">SKYPE</h3>
+					<span class="d-block color-blue contact-link mb-4">mobileshop</span>
+
+					<div id="social-media-contact">
+						<div class="social-media-icon">
+							<span class="fab fa-facebook-f" aria-hidden="true"></span>
+						</div>
+						<div class="social-media-icon">
+							<span class="fab fa-twitter" aria-hidden="true"></span>
+						</div>
+						<div class="social-media-icon">
+							<span class="fab fa-google-plus" aria-hidden="true"></span>
+						</div>
+						<div class="social-media-icon">
+							<span class="fab fa-pinterest" aria-hidden="true"></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -206,9 +201,6 @@
         <!-- Scripts -->
         <!-- JQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-		<!-- gallery.js -->
-		<script type="text/javascript" src="../assets/js/gallery.js"></script>
 
         <!-- Poppper -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
