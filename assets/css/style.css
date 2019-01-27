@@ -815,4 +815,29 @@ input
     color: #7e7e7e;
     margin-right: 24px;
     cursor: pointer;
+    transition: color 0.15s;
+}
+
+.social-media-icon:hover
+{
+    color: #a8ff78;
+}
+
+.warning
+{
+    box-shadow: 0px 0px 8px red !important;
+}
+
+#about-me
+{
+    border: 1px solid #bbb;
+    margin: 32px 0px;
+    padding: 8px 24px;
+    display: flex;
+}
+
+.author-image
+{
+    width: 360px;
+    border: 8px solid #bbb;
 }
