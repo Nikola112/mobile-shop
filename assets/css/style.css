@@ -529,3 +529,81 @@ input
     text-decoration: none;
     cursor: pointer;
 }
+
+.customer-service h4
+{
+    margin: 16px 0px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: #454545;
+}
+
+.customer-service ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.customer-service li
+{
+    padding: 4px;
+    text-align: left;
+}
+
+.customer-service span
+{
+    color: #454545;
+    font-weight: bold;
+    transition: color 0.15s;
+}
+
+.customer-service span:hover
+{
+    text-decoration: none;
+    color: #59df59;
+    cursor: pointer;
+}
+
+.social-media
+{
+    text-align: right;
+}
+
+.social-media h4
+{
+    margin: 16px 0px;
+    padding-right: 45%;
+    text-align: right;
+    font-weight: bold;
+    color: #454545;
+}
+
+.social-media ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 45%;
+}
+
+.social-media li
+{
+    padding: 4px;
+    text-align: left;
+}
+
+.social-media span
+{
+    color: #454545;
+    font-weight: bold;
+    transition: color 0.15s;
+}
+
+.social-media span:hover
+{
+    text-decoration: none;
+    color: #59df59;
+    cursor: pointer;
+}
