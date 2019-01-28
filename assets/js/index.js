@@ -80,7 +80,8 @@ $(function()
         new Phone("Sony Xperia L1", 229.99, "sony-xperia-l1.jpg"),
         new Phone("Sony Xperia XA2", 329.99, "sony-xperia-xa-2.jpg"),
         new Phone("Sony Xperia XZ2", 289.99, "sony-xperia-xz-2.jpg"),
-        new Phone("Nokia 7.1", 459.99, "nokia-7-1.jpg")
+        new Phone("Nokia 7.1", 459.99, "nokia-7-1.jpg"),
+        new Phone("Nokia 8", 505.89, "nokia-8.jpg")
     ];
     
     function renderPhoneItems(parent, ...items)
@@ -91,7 +92,7 @@ $(function()
     let phoneList = new PhoneList(phones);
 
     let recomended = document.getElementById("recomended-items");
-    renderPhoneItems(recomended, phoneList.atIndex(0), phoneList.atIndex(2), phoneList.atIndex(8), phoneList.atIndex(3));
+    renderPhoneItems(recomended, phoneList.atIndex(0), phoneList.atIndex(10), phoneList.atIndex(8), phoneList.atIndex(3));
 
     let featured = document.getElementById("featured-items");
     renderPhoneItems(featured, phoneList.atIndex(4), phoneList.atIndex(6), phoneList.atIndex(7), phoneList.atIndex(2));
